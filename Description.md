@@ -10,3 +10,7 @@
 
 - Use NIN neural network to train an image classification model on the CIFAR10 dataset. The model consists of a three-layer mplconv network and a global mean pooling layer. Each layer of the mplconv network contains three convolutional layers that use the RELU activation function. The model uses the Adam optimizer and the Cross-Entropy Loss function to train for 20 epochs.
 
+# MobileNet_CIFAR10
+
+- 使用MobileNet神经网络在CIFAR10数据集上训练一个图像分类模型。模型由一个标准卷积层和九个深度可分离卷积层组成。每个深度可分离卷积层分为一个深度卷积层和一个点卷积层。每层网络均包含BN层和RELU激活层。模型使用自适应矩估计优化器和交叉熵损失函数，训练20个epoch。
+- Use MobileNet neural network to train an image classification model on the CIFAR10 dataset. The model consists of a standard convolutional layer and nine depthwise sparable convolution layers. Each depthwise sparable convolution layer is divided into a depthwise convolution layer and a pointwise convolution layer. Each layer of the network includes a BN layer and a RELU activation layer. The model uses the Adam optimizer and the Cross-Entropy Loss function to train for 20 epochs.
