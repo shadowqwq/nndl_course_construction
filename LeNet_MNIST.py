@@ -1,4 +1,4 @@
-# 代码来源：https://github.com/ShaoQiBNU/pyTorch_MNIST
+# 代码修改自：https://github.com/ShaoQiBNU/pyTorch_MNIST
 import torch
 from torchvision import datasets, transforms
 import torch.nn as nn

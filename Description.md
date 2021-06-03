@@ -21,3 +21,9 @@
 - 使用VGG11神经网络在CIFAR10数据集上训练一个图像分类模型。模型的特征提取器包含八个卷积层和五个最大池化层，使用线性层和RELU激活函数进行分类。模型使用自适应矩估计优化器和交叉熵损失函数，训练20个epoch。
 
 - Use the VGG11 neural network to train an image classification model on the CIFAR10 dataset. The feature extractor of the model contains eight convolutional layers and five maximum pooling layers, and uses the linear layer and the RELU activation function for classification. The model uses the Adam optimizer and the Cross-Entropy Loss function to train for 20 epochs.
+
+# SqueezeNet_CIFAR10
+
+- 使用SqueezeNet神经网络在CIFAR10数据集上训练一个图像分类模型。模型由一个卷积层和八个Fire模块构成，每个Fire模块包含一个采用1x1卷积核的squeeze层和一个混合使用1x1、3x3卷积核的expand层。模型使用自适应矩估计优化器和交叉熵损失函数，训练20个epoch。
+
+- Use the SqueezeNet neural network to train an image classification model on the CIFAR10 dataset. The model consists of a convolutional layer and eight Fire modules. Each Fire module contains a squeeze layer with a 1x1 convolution kernel and an expand layer with a mixture of 1x1 and 3x3 convolution kernels. The model uses the Adam optimizer and the Cross-Entropy Loss function to train for 20 epochs.
